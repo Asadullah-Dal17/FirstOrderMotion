@@ -1,5 +1,5 @@
 # FirstOrderMotion
-## Nvidia Drivers Installation commands For Ubuntu
+## Nvidia Drivers Installation commands For Ubuntu 20.04
 
 ### Add NVIDIA package repositories
 
@@ -25,11 +25,19 @@ sudo apt-get install --no-install-recommends nvidia-driver-440
 
 nvidia-smi
 
+https://www.anaconda.com/products/individual
+
+
+
 it will show the detail of your GPU 
  
 ## Repository of First order motion
 
 git clone https://github.com/AliaksandrSiarohin/first-order-model
+
+# Download Anaconda 
+
+https://www.anaconda.com/products/individual
 
 ## pytorch installation command for Anaconda
 
