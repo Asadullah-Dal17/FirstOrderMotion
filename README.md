@@ -74,11 +74,16 @@ sudo apt install ffmpeg
 
 pip install ffmpeg
 
+# input image must have size of 256x256
+in case you want increase the size than crop video(Driving Video) must have same size as input image(Source Image)
+
 ## command for croping the video
 
 python crop-video.py --inp some_youtube_video.mp4
 
 when croping will be completed, it generate a command in the terminal in oder to crop the video copy and paste that command and crop.mp4 will save into First order motion directory
+
+by defualt it crops video in 256x256 size
 
 ## already crop video and picture are available on this google drive link:
 https://drive.google.com/drive/folders/1kZ1gCnpfU0BnpdU47pLM_TQ6RypDDqgw?usp=sharing
@@ -87,5 +92,5 @@ https://drive.google.com/drive/folders/1kZ1gCnpfU0BnpdU47pLM_TQ6RypDDqgw?usp=sha
 
 python demo.py  --config config/dataset_name.yaml --driving_video path/to/driving --source_image path/to/source --checkpoint path/to/checkpoint --relative --adapt_scale
 
-=============================================================================================================================
+======================================================================================================
 ###                     The end
