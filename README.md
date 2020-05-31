@@ -74,7 +74,7 @@ pip install ffmpeg
 
 python crop-video.py --inp some_youtube_video.mp4
 
-when you croping will be completed, it generate a command in the terminal in oder to crop the video cupy and paste that command and crop.mp4 will save into First order motion directory
+when croping will be completed, it generate a command in the terminal in oder to crop the video copy and paste that command and crop.mp4 will save into First order motion directory
 
 
 ## Command to generate animated video
