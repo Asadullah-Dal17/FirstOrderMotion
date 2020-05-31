@@ -39,6 +39,18 @@ git clone https://github.com/AliaksandrSiarohin/first-order-model
 
 https://www.anaconda.com/products/individual
 
+## how to create Environment using conda
+
+conda create --name FOMM python==3.7
+## Activate Environment
+
+conda activate FOMM
+## Installation of packages
+
+conda install numpy==1.15
+
+conda install --file filename.txt
+
 ## pytorch installation command for Anaconda
 
 conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
@@ -49,4 +61,10 @@ https://pytorch.org/
 ### pip command for Opencv
 
 pip install opencv-python
+
+## ffmpeg installation 
+
+sudo apt install ffmpeg
+
+pip install ffmpeg
 
