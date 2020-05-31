@@ -25,16 +25,8 @@ sudo apt-get install --no-install-recommends nvidia-driver-440
 
 nvidia-smi
 
-https://www.anaconda.com/products/individual
-
-
-
 it will show the detail of your GPU 
  
-## Repository of First order motion
-
-git clone https://github.com/AliaksandrSiarohin/first-order-model
-
 # Download Anaconda 
 
 https://www.anaconda.com/products/individual
@@ -45,6 +37,11 @@ conda create --name FOMM python==3.7
 ## Activate Environment
 
 conda activate FOMM
+
+## Repository of First order motion
+
+git clone https://github.com/AliaksandrSiarohin/first-order-model
+
 ## Installation of packages
 
 conda install numpy==1.15
@@ -57,10 +54,15 @@ conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 
 https://pytorch.org/
 
+## Setup Face-Alignment
 
-### pip command for Opencv
+git clone https://github.com/1adrianb/face-alignment
 
-pip install opencv-python
+cd face-alignment
+
+pip install -r requirements.txt
+
+python setup.py install
 
 ## ffmpeg installation 
 
@@ -68,3 +70,15 @@ sudo apt install ffmpeg
 
 pip install ffmpeg
 
+# command for croping the video
+
+python crop-video.py --inp some_youtube_video.mp4
+
+when you croping will be completed, it generate a command in the terminal in oder to crop the video cupy and paste that command and crop.mp4 will save into First order motion directory
+
+
+# Command to generate animated video
+
+python demo.py  --config config/dataset_name.yaml --driving_video path/to/driving --source_image path/to/source --checkpoint path/to/checkpoint --relative --adapt_scale
+
+The end
