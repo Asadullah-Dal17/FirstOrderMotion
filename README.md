@@ -26,6 +26,10 @@ sudo apt-get install --no-install-recommends nvidia-driver-440
 nvidia-smi
 
 it will show the detail of your GPU 
+
+## if want to install cuda
+
+then go to this link: https://www.tensorflow.org/install/gpu
  
 # Download Anaconda 
 
@@ -81,4 +85,5 @@ when croping will be completed, it generate a command in the terminal in oder to
 
 python demo.py  --config config/dataset_name.yaml --driving_video path/to/driving --source_image path/to/source --checkpoint path/to/checkpoint --relative --adapt_scale
 
-The end
+=============================================================================================================================
+###                     The end
