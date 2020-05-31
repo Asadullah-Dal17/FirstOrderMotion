@@ -80,6 +80,8 @@ python crop-video.py --inp some_youtube_video.mp4
 
 when croping will be completed, it generate a command in the terminal in oder to crop the video copy and paste that command and crop.mp4 will save into First order motion directory
 
+## already crop video and picture are available on this google drive link:
+https://drive.google.com/drive/folders/1kZ1gCnpfU0BnpdU47pLM_TQ6RypDDqgw?usp=sharing
 
 ## Command to generate animated video
 
