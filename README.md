@@ -1,5 +1,5 @@
 # FirstOrderMotion
-## Nvidia Drivers Installation For Ubuntu 20.04
+## Nvidia Drivers Installation For Ubuntu 20.04 and Windows 10
 
 ### Add NVIDIA package repositories
 
