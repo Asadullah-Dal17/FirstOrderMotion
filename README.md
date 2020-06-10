@@ -88,6 +88,8 @@ by defualt it crops video in 256x256 size
 ## already crop video and picture are available on this google drive link:
 https://drive.google.com/drive/folders/1kZ1gCnpfU0BnpdU47pLM_TQ6RypDDqgw?usp=sharing
 
+## Google drive link of pre-trained model of first order motion model
+
 ## Command to generate animated video
 
 python demo.py  --config config/dataset_name.yaml --driving_video path/to/driving --source_image path/to/source --checkpoint path/to/checkpoint --relative --adapt_scale
